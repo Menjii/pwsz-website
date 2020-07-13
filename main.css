@@ -121,6 +121,10 @@
     padding: 40px 0;
 }
 
+.fullmargin {
+    margin-top: 5%;
+}
+
 .btn-secondary {
     color: #fff;
     background-color: #222 !important;
