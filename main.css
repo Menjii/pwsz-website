@@ -2,7 +2,7 @@
     padding:0;
     margin: 0;
     background: #fff;
-    font-family: Poppins,Helvetica,-apple-system,sans-serif;
+    font-family: Comfortaa-Light, Poppins, Helvetica,-apple-system,sans-serif !important;
 }
 
 /*----- navigation bar -----*/
@@ -37,7 +37,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
-    height: 100vh;
+    height: 100%;
 }
 
 .overlay {
@@ -50,18 +50,16 @@
 }
 
 .slider {
-    width: 120vh;
-    left:50%;
-    top:425px;
-    transform: translate(-50%, -50%);
-    position: absolute;
+    width: 60%;
+    margin: 0 auto;
 }
+
+/*----- daily images ----- */
 
 .features {
     margin: 4em euto;
     padding: 1em;
-    position relative;
-    color: #000;
+    position: relative;
 }
 
 .feature-title {
@@ -78,6 +76,8 @@
     margin-bottom:16px;
 }
 
+/*----- quote ----- */
+
 .jumbotron {
     padding: 1rem;
     border-radius: 0;
@@ -87,6 +87,8 @@
 .padding {
     padding-bottom: 2rem;
 }
+
+/*----- WHO AM I ----- */
 
 .welcome {
     width: 75%;
@@ -101,18 +103,20 @@
 }
 
 .welcome li {
-    font-family: Poppins-Light,Helvetica,-apple-system,sans-serif;
+    font-family: Comfortaa-Light, Poppins, Helvetica,-apple-system,sans-serif !important;
     margin-bottom: 5px;
 }
 
 .lead {
     color: #000;
-    font-family: Poppins-Light,Helvetica,-apple-system,sans-serif;
+    font-family: Comfortaa-Light, Poppins, Helvetica,-apple-system,sans-serif !important;
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
     text-align: justify;
 }
+
+/*----- footer ----- */
 
 .page-footer {
     background-color: #222;
