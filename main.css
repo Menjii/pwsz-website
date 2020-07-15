@@ -1,8 +1,19 @@
+/* ------- FONTS ----- */
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+/*------------ GLOBAL TEXT STYLES --------*/
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 400;
+}
+
 .page-top {
     padding:0;
     margin: 0;
     background: #fff;
-    font-family: Comfortaa-Light, Poppins, Helvetica,-apple-system,sans-serif !important;
+    font-family: Poppins, Helvetica,-apple-system,sans-serif !important;
 }
 
 /*----- navigation bar -----*/
@@ -103,13 +114,13 @@
 }
 
 .welcome li {
-    font-family: Comfortaa-Light, Poppins, Helvetica,-apple-system,sans-serif !important;
+    font-family: Poppins, Helvetica,-apple-system,sans-serif !important;
     margin-bottom: 5px;
 }
 
 .lead {
     color: #000;
-    font-family: Comfortaa-Light, Poppins, Helvetica,-apple-system,sans-serif !important;
+    font-family: Poppins, Helvetica,-apple-system,sans-serif !important;
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
